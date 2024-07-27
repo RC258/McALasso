@@ -9,6 +9,10 @@ For more details about the data analysis and theoretical proof of its oracle pro
 ## McALasso
 This project is established; any real Markov sequence (where  0 < states ≤ 9) can be imported for experimentation.
 
+## Lasso-based penalized likelihood estimation method
+This project provides an optimization model for Markov model which integrates Lasso and constrained programming techniques. Additionally, it features data simulation for a 3-state Markov chain and cross-validation visualization.
+
+
 # Remarks
 - The imported sequences should be displayed with finite integer numbers, \[0,9\].
 - The default set of regularization parameters $\Lambda$ is \[0.1, 1\], with a step of 0.1. This can be manually changed to obtain more precise values or to enhance computation speed.
