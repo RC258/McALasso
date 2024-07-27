@@ -10,7 +10,10 @@ For more details about the data analysis and theoretical proof of its oracle pro
 This project is established; any real Markov sequence (where  0 < states ≤ 9) can be imported for experimentation.
 
 ## Lasso-based penalized likelihood estimation method
-This project provides an optimization model for Markov model which integrates Lasso and constrained programming techniques. Additionally, it features data simulation for a 3-state Markov chain and cross-validation visualization.
+This project provides an optimization model for Markov models that integrates Lasso and constrained programming techniques. Additionally, it features data simulation for a 4-state Markov chain and cross-validation visualization. 
+
+The project includes two data evaluation methods(purity, Finite-dimensional complex normed spaces), which also can be applied to McALasso.
+
 
 
 # Remarks
