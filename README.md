@@ -4,7 +4,7 @@ This repository provides multiple Python projects in Jupyter notebook format, de
 - The Markov transition matrix estimated by this procedure should closely approximate the true Markov transition matrix.
 - For any pair of distinct transitions that exhibit equality relationship in the true Markov transition matrix, this procedure may accurately detect them.
 
-For more details about the data analysis and theoretical proof of its oracle properties, please refer to the my paper: "[Adaptive Penalized Likelihood method for Markov Chains]"(https://arxiv.org/abs/2406.00322).
+For more details about the data analysis and theoretical proof of its oracle properties, please refer to the my paper: ["Adaptive Penalized Likelihood method for Markov Chains"](https://arxiv.org/abs/2406.00322).
 
 ## McALasso
 This project is established; any real Markov sequence (where  0 < states ≤ 9) can be imported for experimentation.
