@@ -7,7 +7,7 @@ This repository provides multiple Python projects in Jupyter notebook format, de
 For more details about the data analysis and theoretical proof of its oracle properties, please refer to the my paper: ["Adaptive Penalized Likelihood method for Markov Chains"](https://arxiv.org/abs/2406.00322).
 
 ## McALasso
-This project is established; any real Markov sequence (where  0 < states ≤ 9) can be imported for experimentation.
+This project provides the final version of our developed algorithm for Markov models, which perfectly fulfills the objectives outlined. Any real-life Markov sequence (where  0 < states≤ 9 ) can be imported for experimentation.
 
 ## Lasso-based penalized likelihood estimation method
 This project provides an optimization model for Markov models that integrates Lasso and constrained programming techniques. Additionally, it features data simulation for a 4-state Markov chain and cross-validation visualization. 
