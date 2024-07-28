@@ -15,6 +15,8 @@ This project provides an optimization model for Markov models that integrates La
 The project includes two data evaluation methods(purity, Finite-dimensional complex normed spaces), which also can be applied to McALasso.
 
 
+# DNA sequecning Example
+The "ACGT.txt" provides a part of real ACGT dna sequnce which obtained from [Mehrotra et al. (2013)](https://pubmed.ncbi.nlm.nih.gov/23530833/). The R file "Data transfer" provide the procedure the convert the dataset to our required format. The utilized R packages are not included by default in RStudio and require manual installation.
 
 # Remarks
 - The imported sequences should be displayed with finite integer numbers, \[0,9\].
