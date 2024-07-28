@@ -16,10 +16,10 @@ The project includes two data evaluation methods(purity, Finite-dimensional comp
 
 
 # DNA sequecning Example
-The "ACGT.txt" provides a part of real ACGT dna sequnce which obtained from [Mehrotra et al. (2013)](https://pubmed.ncbi.nlm.nih.gov/23530833/). The R file "Data transfer" provide the procedure the convert the dataset to our required format. The utilized R packages are not included by default in RStudio and require manual installation.
+The "ACGT.txt" file provides a portion of a real ACGT DNA sequence for the experiment. This dataset can be obtained from Mehrotra et al. (2013). The R file "Data transfer" contains a script to convert the original sequence into the our required format. The utilized R packages are not included by default in RStudio and require manual installation.
 
 # Remarks
-- The imported sequences should be displayed with finite integer numbers, \[0,9\].
+- The imported sequences should be built by finite integer numbers, \[0,9\].
 - The default set of regularization parameters $\Lambda$ is \[0.1, 1\], with a step of 0.1. This can be manually changed to obtain more precise values or to enhance computation speed.
 - We utilize k-fold cross-validation technique to compute the optimal regualization parameter, with default value 5. This can be manually changed with respect ot the dataset.
 
